@@ -1,0 +1,210 @@
+body {
+    font-family: 'Arial', sans-serif;
+    background-color: #8b0000;
+    /* Vermelho Natalino */
+    margin: 0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+}
+
+.carta-fechada {
+    cursor: pointer;
+}
+
+.envelope-img {
+    width: 700px;
+}
+
+.carta-aberta {
+    background-color: #fff;
+    border: 2px solid #8b0000;
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.1);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    color: #333;
+    line-height: 1.6;
+    display: none;
+    max-width: 80%;
+    padding: 20px;
+    border-radius: 8px;
+}
+
+.carta-aberta h1 {
+    color: #e44d26;
+    font-size: 32px;
+    margin-bottom: 20px;
+}
+
+.carta-aberta p {
+    margin: 10px 0;
+}
+
+.carta-aberta button {
+    background-color: #8b0000;
+    color: #fff;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 8px;
+    cursor: pointer;
+    margin-bottom: 20px;
+}
+
+.carta-aberta img {
+    max-width: 100%;
+    border-radius: 8px;
+    margin-top: 20px;
+}
+
+.presente {
+    text-align: center;
+    color: #fff;
+}
+
+#loading-bar-container {
+    width: 500px;
+    height: 20px;
+    background-color: #fff;
+    border-radius: 10px;
+    margin: 20px auto;
+    overflow: hidden;
+}
+
+#loading-bar {
+    height: 100%;
+    width: 0;
+    background-color: #2ecc36;
+    /* Verde */
+    border-radius: 10px;
+}
+
+#loading-message {
+    margin-top: 10px;
+}
+
+#abrir-presente-btn {
+    background-color: #8b0000;
+    color: #fff;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 8px;
+    cursor: pointer;
+    margin-top: 20px;
+}
+
+.hidden {
+    display: none;
+}
+
+.voltar {
+    background-color: #8b0000;
+    color: #fff;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 8px;
+    cursor: pointer;
+    margin-top: 20px;
+}
+
+.mensagem {
+    text-align: center;
+    color: #fff;
+    padding: 25px;
+    background-color: #8b0000;
+    /* Vermelho Natalino */
+    border: 2px solid #fff;
+    border-radius: 8px;
+    max-width: 80%;
+    margin: 20px auto;
+}
+/* ... (seu código existente) ... */
+
+button, .voltar {
+    background-color: #6e1a06;
+    color: #fff;
+    padding: 25px 30px;
+    border: none;
+    border-radius: 10px;
+    cursor: pointer;
+    margin-top: 20px;
+    font-size: 16px;
+}
+
+button:hover, .voltar:hover {
+    background-color: #7c200b;
+}
+
+/* ... (seu código existente) ... */
+/* presente.html */
+
+body {
+    font-family: 'Arial', sans-serif;
+    margin: 0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    background-color: #f0f0f0; /* Cinza claro */
+}
+
+.presente {
+    text-align: center;
+    color: #333; /* Cinza escuro */
+    padding: 40px;
+    border: 4px solid #333; /* Cinza escuro */
+    border-radius: 12px;
+    max-width: 60%;
+    margin: 20px auto;
+    background-color: #fff; /* Branco */
+}
+
+#loading-bar-container {
+    width: 300px;
+    height: 30px;
+    background-color: #fff; /* Branco */
+    border-radius: 15px;
+    margin: 20px auto;
+    overflow: hidden;
+}
+
+#loading-bar {
+    height: 100%;
+    width: 0;
+    background-color: #4caf50; /* Verde mais intenso */
+    border-radius: 15px;
+}
+
+#loading-message {
+    margin-top: 10px;
+    color: #333; /* Cinza escuro */
+}
+
+#abrir-presente-btn {
+    background-color: #4caf50; /* Verde mais intenso */
+    color: #fff; /* Branco */
+    padding: 15px 30px;
+    border: none;
+    border-radius: 10px;
+    cursor: pointer;
+    margin-top: 20px;
+    font-size: 18px;
+}
+
+.hidden {
+    display: none;
+}
+
+.voltar {
+    background-color: #8b0000; /* Vermelho Natalino */
+    color: #fff; /* Branco */
+    padding: 15px 30px;
+    border: none;
+    border-radius: 10px;
+    cursor: pointer;
+    margin-top: 20px;
+    font-size: 18px;
+}
+
